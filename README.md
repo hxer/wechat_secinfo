@@ -12,7 +12,7 @@ wxname参数用的并不是微信号或者昵称，看起来是经过了某种�
 * lazythought -> bGF6eXRob3VnaHQ=
 * lazy-thought -> bGF6eS10aG91Z2h0
 
-上下一比较，发现有规律了，密文是在明文base64编码的基础上间隔插入了字符串**QBDSJqing521**，对于base64编码有** = **的，替换成了**O0O0O**
+上下一比较，发现有规律了，密文是在明文base64编码的基础上间隔插入了字符串**QBDSJqing521**，对于base64编码"="替换成了"O0O0O"
 
 加密代码为
 
