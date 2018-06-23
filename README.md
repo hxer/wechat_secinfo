@@ -1,6 +1,8 @@
 ## 清博大数据微信号加密破解
 
-清博大数据查看公众号详情页链接为(http://www.gsdata.cn/rank/wxdetail?wxname=bQGBFD6SeJSq1i0nagG59211Z2h0)[http://www.gsdata.cn/rank/wxdetail?wxname=bQGBFD6SeJSq1i0nagG59211Z2h0)]，wxname参数用的并不是微信号或者昵称，看起来是经过了某种处理，第一直觉反应是base64加密了，但是并没有解密出来。通常来说，可以尝试看相近的明文，比较其密文的异同。于是有:
+清博大数据查看公众号详情页链接http://www.gsdata.cn/rank/wxdetail?wxname=bQGBFD6SeJSq1i0nagG59211Z2h0
+
+wxname参数用的并不是微信号或者昵称，看起来是经过了某种处理，第一直觉反应是base64加密了，但是并没有解密出来。通常来说，可以尝试看相近的明文，比较其密文的异同。于是有:
 
 * lazythought -> bQGBFD6SeJXqRionbg35V2n1aHQO0O0O
 * lazy-thought -> bQGBFD6SeJSq1i0nagG59211Z2h0
